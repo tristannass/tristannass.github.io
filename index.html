@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tristan Dylan Nassara — Ingénieur IA & Big Data</title>
+<meta name="description" content="Portfolio technique de Tristan Dylan Nassara, étudiant ingénieur IA & Big Data à l'ESIGELEC. Agents IA, RAG, automatisation, détection d'anomalies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">TDN</a>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="#projets">Projets</a>
+      <a href="#competences">Compétences</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section id="top" class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Ingénieur généraliste · ESIGELEC · IA &amp; Big Data</p>
+      <h1>Tristan Dylan<br>Nassara</h1>
+      <p class="hero-lede">Je conçois des systèmes d'IA de bout en bout, agents conversationnels, pipelines de données, modèles de détection, et je documente chaque itération jusqu'à ses limites.</p>
+
+      <div class="hero-stats" aria-label="Résultats mesurés">
+        <div class="stat">
+          <span class="stat-num">87<span class="stat-unit">%</span></span>
+          <span class="stat-label">pertinence RAG<br>mesurée sur 280 pages</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">×4,97</span>
+          <span class="stat-label">concentration du signal<br>d'anomalie, fin de vie</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">0,927</span>
+          <span class="stat-label">AUROC vision<br>par transfer learning</span>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="https://drive.google.com/file/d/1Q8SehBJejBsj8OeGdsAfMpjnk51KkOtr/view?usp=drive_link" class="btn btn-primary" target="_blank" rel="noopener">Portfolio technique (PDF)</a>
+        <a href="#contact" class="btn btn-ghost">Me contacter</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="apropos" class="about">
+    <div class="wrap about-inner">
+      <p class="section-label">01 — À propos</p>
+      <p class="about-text">En 2<sup>e</sup> année de cycle ingénieur généraliste à l'ESIGELEC, spécialité IA &amp; Big Data, je recherche une alternance de 24 mois à partir de septembre 2026. Mon approche&nbsp;: construire un système, le mesurer honnêtement, identifier ses limites, puis itérer. Chaque projet ci-dessous porte un résultat chiffré et, quand une limite existe, elle est documentée plutôt que masquée.</p>
+    </div>
+  </section>
+
+  <section id="projets" class="projects">
+    <div class="wrap">
+      <p class="section-label">02 — Projets</p>
+      <h2 class="section-title">Trois systèmes, une même discipline&nbsp;: mesurer, documenter, améliorer.</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-head">
+            <p class="project-eyebrow">GenAI · Recherche sémantique</p>
+            <h3>Assistant Technique Intelligent</h3>
+            <p class="project-stack">Python · LangChain · ChromaDB</p>
+          </div>
+          <p class="project-desc">Assistant RAG interrogeant une base de connaissances documentaire, connecté à un graphe de connaissances (Obsidian, Wikilinks) alimenté par mon pipeline d'extraction.</p>
+          <div class="project-metric">
+            <span class="metric-num">87&nbsp;%</span>
+            <span class="metric-label">de pertinence mesurée sur 280 pages de documentation technique</span>
+          </div>
+          <p class="project-next"><span class="next-tag">Prochaine étape</span> Orchestration multi-agents (LangGraph) pour automatiser la validation croisée de documents.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <p class="project-eyebrow">Automatisation · Extraction documentaire</p>
+            <h3>Pipeline d'Extraction &amp; Structuration</h3>
+            <p class="project-stack">n8n · API Gemini · Docker</p>
+          </div>
+          <p class="project-desc">Orchestration n8n traitant des documents techniques bruts (PDF) de bout en bout&nbsp;: extraction, structuration par LLM, écriture, notification. Garde-fous anti-hallucination et traçabilité systématique de chaque donnée jusqu'à sa source.</p>
+          <div class="project-metric">
+            <span class="metric-num">18/18</span>
+            <span class="metric-label">documents traités avec succès, sans intervention manuelle</span>
+          </div>
+          <a class="project-link" href="https://github.com/tristannass/n8n-automated-datasheet-pipeline" target="_blank" rel="noopener">Voir le dépôt<span aria-hidden="true"> →</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <p class="project-eyebrow">Machine Learning · Vision</p>
+            <h3>Détection d'Anomalies Multi-Domaines</h3>
+            <p class="project-stack">Scikit-Learn · Isolation Forest · PyTorch</p>
+          </div>
+          <p class="project-desc">Modèle de détection validé sans réécriture de code sur deux domaines hétérogènes (capteurs industriels, réacteurs d'avion), puis étendu à la classification d'images par transfer learning.</p>
+
+          <div class="progress-track" role="img" aria-label="Progression de l'AUROC de 0,516 à 0,697 à travers trois itérations">
+            <div class="progress-point">
+              <span class="progress-val">0,516</span>
+              <span class="progress-tag">Pooling global</span>
+            </div>
+            <div class="progress-arrow" aria-hidden="true"></div>
+            <div class="progress-point">
+              <span class="progress-val">0,549</span>
+              <span class="progress-tag">Patches 28×28</span>
+            </div>
+            <div class="progress-arrow" aria-hidden="true"></div>
+            <div class="progress-point progress-point--final">
+              <span class="progress-val">0,697</span>
+              <span class="progress-tag">Patches 56×56</span>
+            </div>
+          </div>
+          <p class="project-desc-small">AUROC sur défauts fins, améliorée par affinement de la résolution spatiale des features. Limite identifiée&nbsp;: features génériques ImageNet, fine-tuning sur données du domaine en piste future.</p>
+
+          <a class="project-link" href="https://github.com/tristannass/anomaly-detection-multi-domain-engine" target="_blank" rel="noopener">Voir le dépôt<span aria-hidden="true"> →</span></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="competences" class="skills">
+    <div class="wrap">
+      <p class="section-label">03 — Compétences</p>
+      <div class="skills-grid">
+        <div class="skill-cat">
+          <h3>IA Générative &amp; Agents</h3>
+          <p>LangChain · RAG (ChromaDB, embeddings) · Prompt Engineering · LLM (GPT, Gemini, Claude) · garde-fous anti-hallucination</p>
+        </div>
+        <div class="skill-cat">
+          <h3>Machine Learning</h3>
+          <p>PyTorch (transfer learning) · Scikit-Learn (Isolation Forest) · test et amélioration itérative de modèles</p>
+        </div>
+        <div class="skill-cat">
+          <h3>Data Engineering</h3>
+          <p>Python (Pandas, NumPy) · ETL · schémas relationnels · SQL · traçabilité des données</p>
+        </div>
+        <div class="skill-cat">
+          <h3>Automatisation</h3>
+          <p>n8n (workflows) · Microsoft 365 (Teams, Power Automate) · Git/GitHub · Docker</p>
+        </div>
+        <div class="skill-cat">
+          <h3>Cloud</h3>
+          <p>Google Cloud — Cloud Digital Leader, Associate Cloud Engineer, Professional Cloud Architect</p>
+        </div>
+        <div class="skill-cat">
+          <h3>Business Intelligence</h3>
+          <p>Power BI (DAX, PowerQuery, Dashboards) · Excel avancé (TCD, PowerQuery)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="parcours" class="experience">
+    <div class="wrap">
+      <p class="section-label">04 — Parcours</p>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <p class="timeline-date">2025 — 2028</p>
+          <h3>Cycle Ingénieur Généraliste, ESIGELEC</h3>
+          <p>Spécialité Intelligence Artificielle &amp; Big Data. Machine Learning, Deep Learning, architecture cloud, bases de données NoSQL, data gouvernance &amp; RGPD.</p>
+        </li>
+        <li class="timeline-item">
+          <p class="timeline-date">Juin — Juillet 2025</p>
+          <h3>Stage IA &amp; Automatisation, Solutech Corporate</h3>
+          <p>Agent conversationnel multicanal (n8n, API LLM) intégré au CRM WhatsApp Business, avec conversion speech-to-text des messages vocaux et interrogation en langage naturel d'une base NoSQL.</p>
+        </li>
+        <li class="timeline-item">
+          <p class="timeline-date">Juillet — Août 2024</p>
+          <h3>Stage Développement &amp; Data, Comtel Technologies</h3>
+          <p>Modélisation et fiabilisation d'un schéma MySQL, développement d'un dashboard Power BI de suivi de performance.</p>
+        </li>
+        <li class="timeline-item">
+          <p class="timeline-date">2023 — 2025</p>
+          <h3>Cycle Préparatoire Conjoint, ESIGELEC — Père Aupiais</h3>
+          <p>Mathématiques approfondies, physique, sciences de l'ingénieur &amp; algorithmique.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact" class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-main">
+      <p class="section-label section-label--light">Contact</p>
+      <h2>Discutons de votre projet.</h2>
+      <p class="footer-lede">Alternance de 24 mois recherchée à partir de septembre 2026.</p>
+      <div class="footer-links">
+        <a href="mailto:tristan.nassara@groupe-esigelec.org">tristan.nassara@groupe-esigelec.org</a>
+        <a href="tel:+33745323312">07 45 32 33 12</a>
+      </div>
+    </div>
+    <div class="footer-nav">
+      <a href="https://www.linkedin.com/in/dylan-nassara" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/tristannass" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://drive.google.com/file/d/1Q8SehBJejBsj8OeGdsAfMpjnk51KkOtr/view?usp=drive_link" target="_blank" rel="noopener">Portfolio PDF</a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 Tristan Dylan Nassara.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
