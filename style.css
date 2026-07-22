@@ -14,7 +14,7 @@
   --font-body: 'Work Sans', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
 
-  --wrap: 1120px;
+  --wrap: 1320px;
   --prose: 680px;
   --radius: 2px;
 }
@@ -249,7 +249,7 @@ a:focus-visible, button:focus-visible{
   font-family: var(--font-mono); font-size: 12.5px; color: var(--accent); padding-top: 3px;
 }
 .timeline-item h3{ font-size: 16.5px; color: var(--navy); font-weight: 700; margin-bottom: 8px; }
-.timeline-item p:not(.timeline-date){ font-size: 14px; color: var(--muted); line-height: 1.6; max-width: var(--prose); }
+.timeline-content p{ font-size: 14px; color: var(--muted); line-height: 1.6; max-width: var(--prose); }
 
 /* ===== Footer ===== */
 .site-footer{ background: var(--navy-deep); color: var(--white); padding: 88px 0 32px; margin-top: 40px; }
