@@ -1,5 +1,7 @@
 # Tristan Dylan Nassara · Portfolio
 
+![Structure](https://img.shields.io/badge/Structure-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![Style](https://img.shields.io/badge/Style-CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![Interactivity](https://img.shields.io/badge/Interactivity-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Hosting](https://img.shields.io/badge/Hosting-GitHub%20Pages-222222?style=flat&logo=github&logoColor=white)
+
 Site personnel présentant mon parcours, mes projets et mes compétences en IA & Big Data.
 
 🔗 **[tristannass.github.io](https://tristannass.github.io/)**
