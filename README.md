@@ -14,7 +14,7 @@ Site personnel présentant mon parcours, mes projets et mes compétences en IA &
 
 - HTML / CSS / JavaScript (vanilla, sans framework)
 - Polices : [Bricolage Grotesque](https://fonts.google.com/specimen/Bricolage+Grotesque), [Work Sans](https://fonts.google.com/specimen/Work+Sans), [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) (Google Fonts)
-- Hébergement : GitHub Pages
+- Hébergement : GitHub Pages (Déploiement continu via main branch)
 
 ## Structure
 
@@ -37,7 +37,7 @@ Puis ouvrir `http://localhost:8000` dans un navigateur.
 
 ## Design
 
-Palette et typographie reprises de mon portfolio technique pour une identité visuelle cohérente entre mes différents supports de candidature.
+Palette et typographie reprises de mon portfolio technique (fond crème, typographie épurée, contrastes ciblés sur les métriques clés) pour une identité visuelle cohérente entre mes différents supports de candidature.
 
 ## Contact
 
