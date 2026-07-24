@@ -10,6 +10,12 @@ Site personnel présentant mon parcours, mes projets et mes compétences en IA &
 
 Étudiant ingénieur en 2e année à l'ESIGELEC, spécialité IA & Big Data, ce site présente mes projets techniques (RAG, automatisation, détection d'anomalies), mes compétences et mon parcours, dans un format plus visuel et interactif que mon CV ou mon portfolio PDF.
 
+## Projets présentés
+
+1. **Assistant Technique Intelligent (RAG)** : Analyse documentaire (280 pages) avec une pertinence mesurée à 87 %.
+2. **Pipeline d'Extraction & Structuration** : Automatisation n8n et LLM traitant 18 documents techniques avec traçabilité de bout en bout.
+3. **Détection d'Anomalies Multi-Domaines** : Modélisation Machine Learning (Isolation Forest) et Computer Vision (ResNet50).
+
 ## Stack technique
 
 - HTML / CSS / JavaScript (vanilla, sans framework)
@@ -20,9 +26,9 @@ Site personnel présentant mon parcours, mes projets et mes compétences en IA &
 
 ```
 .
-├── index.html    # Structure et contenu du site
-├── style.css     # Design system (couleurs, typographie, mise en page)
-└── script.js     # Animations au scroll (Intersection Observer)
+├── index.html # Structure et contenu du site
+├── style.css # Design system (couleurs, typographie, mise en page)
+└── script.js # Animations au scroll (Intersection Observer)
 ```
 
 ## Lancer en local
@@ -44,3 +50,8 @@ Palette et typographie reprises de mon portfolio technique (fond crème, typogra
 - LinkedIn : [linkedin.com/in/dylan-nassara](https://www.linkedin.com/in/dylan-nassara)
 - Email : tristan.nassara@groupe-esigelec.org
 - GitHub : [github.com/tristannass](https://github.com/tristannass)
+
+## Licence
+
+Ce projet est destiné à la présentation de mon profil professionnel. \
+© 2026 Tristan Dylan Nassara. Tous droits réservés.
