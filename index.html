@@ -36,8 +36,8 @@
 
       <div class="hero-stats" aria-label="Résultats mesurés">
         <div class="stat">
-          <span class="stat-num">87<span class="stat-unit">%</span></span>
-          <span class="stat-label">pertinence RAG<br>mesurée sur 280 pages</span>
+          <span class="stat-num">44/45</span>
+          <span class="stat-label">test golden RAG<br>cas pièges inclus</span>
         </div>
         <div class="stat">
           <span class="stat-num">×4,97</span>
@@ -50,7 +50,7 @@
       </div>
 
       <div class="hero-actions">
-        <a href="https://drive.google.com/file/d/1Q8SehBJejBsj8OeGdsAfMpjnk51KkOtr/view?usp=drive_link" class="btn btn-primary" target="_blank" rel="noopener">Portfolio technique (PDF)</a>
+        <a href="https://drive.google.com/file/d/1DdJ5ExvvoNG-CtEEVrA7pAiH7wMY3wFS/view?usp=sharing" class="btn btn-primary" target="_blank" rel="noopener">Portfolio technique (PDF)</a>
         <a href="#contact" class="btn btn-ghost">Me contacter</a>
       </div>
     </div>
@@ -74,14 +74,15 @@
           <div class="project-head">
             <p class="project-eyebrow">GenAI · Recherche sémantique</p>
             <h3>Assistant Technique Intelligent</h3>
-            <p class="project-stack">Python · LangChain · ChromaDB</p>
+            <p class="project-stack">n8n · pgvector · Cloud SQL · LangChain</p>
           </div>
-          <p class="project-desc">Assistant <strong>RAG</strong> interrogeant une base de connaissances documentaire via LLM, connecté à un <strong>graphe de connaissances</strong> (Obsidian, Wikilinks) alimenté par mon pipeline d'extraction.</p>
+          <p class="project-desc">Assistant <strong>RAG</strong> déployé en production cloud&nbsp;: ingestion automatisée chaînée au pipeline d'extraction, vectorisation (embeddings Gemini, <strong>pgvector</strong>), interface de chat sémantique. Version locale initiale mesurée à 87&nbsp;% sur 280 pages.</p>
           <div class="project-metric">
-            <span class="metric-num">87&nbsp;%</span>
-            <span class="metric-label">de pertinence mesurée sur 280 pages de documentation technique</span>
+            <span class="metric-num">44/45</span>
+            <span class="metric-label">réponses correctes sur un test golden construit manuellement (cas hors-corpus et pièges inclus)</span>
           </div>
           <p class="project-next"><span class="next-tag">Prochaine étape</span> Orchestration multi-agents (LangGraph) pour automatiser la validation croisée de documents.</p>
+          <a class="project-link" href="https://docs.google.com/spreadsheets/d/1lXcN81Sig3teAdaySpSrgt7mrUTKZsuO/edit?usp=sharing" target="_blank" rel="noopener">Voir le test golden<span aria-hidden="true"> →</span></a>
         </article>
 
         <article class="project-card">
@@ -90,9 +91,9 @@
             <h3>Pipeline d'Extraction &amp; Structuration</h3>
             <p class="project-stack">n8n · API Gemini · Docker</p>
           </div>
-          <p class="project-desc">Pipeline d'extraction et de structuration (<strong>n8n</strong>) traitant des documents techniques bruts (PDF) de bout en bout&nbsp;: extraction, structuration par LLM, écriture, notification. Garde-fous anti-hallucination et <strong>traçabilité systématique</strong> de chaque donnée jusqu'à sa source.</p>
+          <p class="project-desc">Pipeline d'extraction et de structuration (<strong>n8n</strong>) traitant des documents techniques bruts (PDF) de bout en bout&nbsp;: détection, <strong>déduplication par empreinte</strong> (hash SHA-256), extraction, structuration par LLM, écriture, notification. Garde-fous anti-hallucination et <strong>traçabilité systématique</strong> de chaque donnée jusqu'à sa source. Déployé sur Google Cloud Run (Cloud SQL).</p>
           <div class="project-metric">
-            <span class="metric-num">18/18</span>
+            <span class="metric-num">19/19</span>
             <span class="metric-label">documents traités avec succès, sans intervention manuelle</span>
           </div>
           <a class="project-link" href="https://github.com/tristannass/n8n-automated-datasheet-pipeline" target="_blank" rel="noopener">Voir le dépôt<span aria-hidden="true"> →</span></a>
@@ -137,7 +138,7 @@
       <div class="skills-grid">
         <div class="skill-cat">
           <h3>IA Générative &amp; Agents</h3>
-          <p>LangChain · RAG (ChromaDB, embeddings) · Prompt Engineering · LLM (GPT, Gemini, Claude) · garde-fous anti-hallucination</p>
+          <p>LangChain · RAG en production (pgvector, ChromaDB, embeddings) · Prompt Engineering · LLM (GPT, Gemini, Claude) · garde-fous anti-hallucination</p>
         </div>
         <div class="skill-cat">
           <h3>Machine Learning</h3>
@@ -145,7 +146,7 @@
         </div>
         <div class="skill-cat">
           <h3>Data Engineering</h3>
-          <p>Python (Pandas, NumPy) · ETL · schémas relationnels · SQL · traçabilité des données</p>
+          <p>Python (Pandas, NumPy) · ETL · schémas relationnels · SQL (MySQL, PostgreSQL) · traçabilité des données</p>
         </div>
         <div class="skill-cat">
           <h3>Automatisation</h3>
@@ -215,7 +216,7 @@
     <div class="footer-nav">
       <a href="https://www.linkedin.com/in/dylan-nassara" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://github.com/tristannass" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://drive.google.com/file/d/1Q8SehBJejBsj8OeGdsAfMpjnk51KkOtr/view?usp=drive_link" target="_blank" rel="noopener">Portfolio PDF</a>
+      <a href="https://drive.google.com/file/d/1DdJ5ExvvoNG-CtEEVrA7pAiH7wMY3wFS/view?usp=sharing" target="_blank" rel="noopener">Portfolio PDF</a>
     </div>
   </div>
   <p class="footer-copy">© 2026 Tristan Dylan Nassara.</p>
