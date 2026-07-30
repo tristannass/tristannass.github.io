@@ -76,7 +76,7 @@
             <h3>Assistant Technique Intelligent</h3>
             <p class="project-stack">n8n · pgvector · Cloud SQL · LangChain</p>
           </div>
-          <p class="project-desc">Assistant <strong>RAG</strong> déployé en production cloud&nbsp;: ingestion automatisée chaînée au pipeline d'extraction, vectorisation (embeddings Gemini, <strong>pgvector</strong>), interface de chat sémantique. Version locale initiale mesurée à 87&nbsp;% sur 280 pages.</p>
+          <p class="project-desc">Assistant <strong>RAG</strong> déployé en production cloud, connecté au pipeline d'extraction&nbsp;: vectorisation (embeddings Gemini, <strong>pgvector</strong> sur Cloud SQL), interface de chat sémantique. Évalué par un juge automatisé (LLM-as-a-Judge), avec routage <strong>Human-in-the-Loop</strong> des cas ambigus vers révision manuelle.</p>
           <div class="project-metric">
             <span class="metric-num">44/45</span>
             <span class="metric-label">réponses correctes sur un test golden construit manuellement (cas hors-corpus et pièges inclus)</span>
@@ -89,9 +89,9 @@
           <div class="project-head">
             <p class="project-eyebrow">Automatisation · Extraction documentaire</p>
             <h3>Pipeline d'Extraction &amp; Structuration</h3>
-            <p class="project-stack">n8n · API Gemini · Docker</p>
+            <p class="project-stack">n8n · API Gemini · Cloud Run</p>
           </div>
-          <p class="project-desc">Pipeline d'extraction et de structuration (<strong>n8n</strong>) traitant des documents techniques bruts (PDF) de bout en bout&nbsp;: détection, <strong>déduplication par empreinte</strong> (hash SHA-256), extraction, structuration par LLM, écriture, notification. Garde-fous anti-hallucination et <strong>traçabilité systématique</strong> de chaque donnée jusqu'à sa source. Déployé sur Google Cloud Run (Cloud SQL).</p>
+          <p class="project-desc">Pipeline d'extraction et de structuration (<strong>n8n</strong>) traitant des documents techniques bruts (PDF) de bout en bout&nbsp;: détection, <strong>déduplication par empreinte</strong> (hash SHA-256), extraction, structuration par LLM, garde-fous anti-hallucination, <strong>traçabilité systématique</strong> de chaque donnée jusqu'à sa source. Déployé en production sur Google Cloud Run.</p>
           <div class="project-metric">
             <span class="metric-num">19/19</span>
             <span class="metric-label">documents traités avec succès, sans intervention manuelle</span>
@@ -138,7 +138,11 @@
       <div class="skills-grid">
         <div class="skill-cat">
           <h3>IA Générative &amp; Agents</h3>
-          <p>LangChain · RAG en production (pgvector, ChromaDB, embeddings) · Prompt Engineering · LLM (GPT, Gemini, Claude) · garde-fous anti-hallucination</p>
+          <p>LangChain · RAG en production (pgvector, ChromaDB, embeddings) · Prompt Engineering · Context Engineering · NLP · LLM (GPT, ChatGPT, Gemini, Claude) · garde-fous anti-hallucination · monitoring &amp; évaluation automatisée (LLM-as-a-Judge) · routage Human-in-the-Loop</p>
+        </div>
+        <div class="skill-cat">
+          <h3>Écosystème Microsoft &amp; Copilot</h3>
+          <p>Microsoft Copilot · Copilot Studio · Azure AI Foundry (pratique établie) · GitHub Copilot</p>
         </div>
         <div class="skill-cat">
           <h3>Machine Learning</h3>
@@ -146,19 +150,27 @@
         </div>
         <div class="skill-cat">
           <h3>Data Engineering</h3>
-          <p>Python (Pandas, NumPy) · ETL · schémas relationnels · SQL (MySQL, PostgreSQL) · traçabilité des données</p>
+          <p>Python (Pandas, NumPy) · ETL/ELT · schémas relationnels · SQL (MySQL, PostgreSQL) · traçabilité et gouvernance des données · idempotence des pipelines</p>
         </div>
         <div class="skill-cat">
-          <h3>Automatisation</h3>
-          <p>n8n (workflows) · Microsoft 365 (Teams, Power Automate) · Git/GitHub · Docker</p>
+          <h3>Automatisation &amp; Développement</h3>
+          <p>n8n (workflows, RPA) · API REST · Microsoft 365 (Power Automate) · Git/GitHub · Docker</p>
         </div>
         <div class="skill-cat">
-          <h3>Cloud</h3>
-          <p>Google Cloud (Cloud Digital Leader, Associate Cloud Engineer, Professional Cloud Architect)</p>
+          <h3>Cloud &amp; Déploiement</h3>
+          <p>Google Cloud Run · Cloud SQL · Cloud Storage · IAM · CI/CD (déploiement, monitoring) · certifications Google Cloud (CDL, ACE, Pro. Cloud Architect)</p>
         </div>
         <div class="skill-cat">
           <h3>Business Intelligence</h3>
-          <p>Power BI (DAX, PowerQuery, Dashboards) · Excel avancé (TCD, PowerQuery)</p>
+          <p>Power BI (DAX, PowerQuery, reporting automatisé) · Excel avancé (TCD, PowerQuery) · Matplotlib</p>
+        </div>
+        <div class="skill-cat">
+          <h3>Développement Web</h3>
+          <p>JavaScript (Vue.js) · HTML · CSS (Bootstrap)</p>
+        </div>
+        <div class="skill-cat">
+          <h3>Programmation</h3>
+          <p>C · Java · PHP</p>
         </div>
       </div>
     </div>
