@@ -50,7 +50,7 @@
       </div>
 
       <div class="hero-actions">
-        <a href="https://drive.google.com/file/d/1DdJ5ExvvoNG-CtEEVrA7pAiH7wMY3wFS/view?usp=sharing" class="btn btn-primary" target="_blank" rel="noopener">Portfolio technique (PDF)</a>
+        <a href="https://drive.google.com/file/d/1JL6DPeAxlZiAg6WiMdtBVBqbb2cyu8AC/view?usp=drive_link" class="btn btn-primary" target="_blank" rel="noopener">Portfolio technique (PDF)</a>
         <a href="#contact" class="btn btn-ghost">Me contacter</a>
       </div>
     </div>
@@ -66,7 +66,7 @@
   <section id="projets" class="projects">
     <div class="wrap">
       <p class="section-label">02 · Projets</p>
-      <h2 class="section-title">Trois systèmes, une même discipline&nbsp;: mesurer, documenter, améliorer.</h2>
+      <h2 class="section-title">Cinq systèmes, une même discipline&nbsp;: mesurer, documenter, améliorer.</h2>
 
       <div class="project-grid">
 
@@ -81,8 +81,9 @@
             <span class="metric-num">44/45</span>
             <span class="metric-label">réponses correctes sur un test golden construit manuellement (cas hors-corpus et pièges inclus)</span>
           </div>
-          <p class="project-next"><span class="next-tag">Prochaine étape</span> Orchestration multi-agents (LangGraph) pour automatiser la validation croisée de documents.</p>
-          <a class="project-link" href="https://docs.google.com/spreadsheets/d/1lXcN81Sig3teAdaySpSrgt7mrUTKZsuO/edit?usp=sharing" target="_blank" rel="noopener">Voir le test golden<span aria-hidden="true"> →</span></a>
+          <p class="project-next"><span class="next-tag">Prochaine étape</span> Routeur sémantique en amont et recherche hybride (vecteur + graphe de connaissances) sur ce même agent.</p>
+          <a class="project-link" href="https://github.com/tristannass/rag-datasheets-n8n" target="_blank" rel="noopener">Voir le dépôt<span aria-hidden="true"> →</span></a>
+          <a class="project-link" href="https://docs.google.com/spreadsheets/d/1h_pFAzXNSCV3Nt8KjHMZyX-4aJ9nkD3u/edit?usp=drive_link" target="_blank" rel="noopener">Voir le test golden<span aria-hidden="true"> →</span></a>
         </article>
 
         <article class="project-card">
@@ -128,6 +129,31 @@
           <a class="project-link" href="https://github.com/tristannass/anomaly-detection-multi-domain-engine" target="_blank" rel="noopener">Voir le dépôt<span aria-hidden="true"> →</span></a>
         </article>
 
+        <article class="project-card">
+          <div class="project-head">
+            <p class="project-eyebrow">Automatisation · Orchestration multi-agents</p>
+            <h3>Tri Automatique par Agents pour Obsidian</h3>
+            <p class="project-stack">n8n · Google Gemini · Multi-agents</p>
+          </div>
+          <p class="project-desc">Un <strong>superviseur</strong> délègue la lecture et la classification des fiches générées par le pipeline d'extraction à des agents outillés (analyste, tri), plutôt qu'une séquence figée. <strong>Garde-fou de validation</strong>&nbsp;: chaque agent ne peut conclure qu'après avoir réellement appelé son outil. Prépare une future indexation par graphe de connaissances.</p>
+          <p class="project-desc-small">Limite identifiée&nbsp;: le tri construit une commande shell par interpolation de chaîne à partir de valeurs décidées par le LLM. Correctif vers des appels système natifs (fs.mkdirSync/renameSync) en cours.</p>
+          <a class="project-link" href="https://github.com/tristannass/n8n-obsidian-agent-sorter" target="_blank" rel="noopener">Voir le dépôt<span aria-hidden="true"> →</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <p class="project-eyebrow">GenAI · Orchestration agentique avancée</p>
+            <h3>Agent ReAct sur LangGraph</h3>
+            <p class="project-stack">FastAPI · LangGraph · LangSmith · Cloud Run</p>
+          </div>
+          <p class="project-desc">Reconstruction au niveau code du même agent unique outillé, sur <strong>LangGraph</strong> plutôt que n8n&nbsp;: état explicite (graphe d'état), boucle de décision, <strong>function calling</strong> typé, routeur conditionnel. Déployé sur Cloud Run, connecté à Cloud SQL par socket natif, chaque exécution <strong>tracée sur LangSmith</strong> nœud par nœud, coût et latence inclus.</p>
+          <div class="project-metric">
+            <span class="metric-num">45/45</span>
+            <span class="metric-label">même test golden, après correction d'un gap sur la résolution de référence implicite (43/45 à la reconstruction)</span>
+          </div>
+          <a class="project-link" href="https://github.com/tristannass/datasheet-rag-agent-api" target="_blank" rel="noopener">Voir le dépôt<span aria-hidden="true"> →</span></a>
+        </article>
+
       </div>
     </div>
   </section>
@@ -137,8 +163,12 @@
       <p class="section-label">03 · Compétences</p>
       <div class="skills-grid">
         <div class="skill-cat">
-          <h3>IA Générative &amp; Agents</h3>
-          <p>LangChain · RAG en production (pgvector, ChromaDB, embeddings) · Prompt Engineering · Context Engineering · NLP · LLM (GPT, ChatGPT, Gemini, Claude) · garde-fous anti-hallucination · monitoring &amp; évaluation automatisée (LLM-as-a-Judge) · routage Human-in-the-Loop</p>
+          <h3>IA Générative</h3>
+          <p>LLM (GPT, ChatGPT, Gemini, Claude) · RAG en production (pgvector, ChromaDB, embeddings) · Prompt Engineering · Context Engineering · NLP · garde-fous anti-hallucination</p>
+        </div>
+        <div class="skill-cat">
+          <h3>IA Agentique</h3>
+          <p>LangChain · <strong>LangGraph</strong> (graphes d'état, function calling, routeur conditionnel) · orchestration multi-agents · monitoring &amp; évaluation automatisée (LLM-as-a-Judge, <strong>LangSmith</strong>) · routage Human-in-the-Loop</p>
         </div>
         <div class="skill-cat">
           <h3>Écosystème Microsoft &amp; Copilot</h3>
@@ -154,23 +184,19 @@
         </div>
         <div class="skill-cat">
           <h3>Automatisation &amp; Développement</h3>
-          <p>n8n (workflows, RPA) · API REST · Microsoft 365 (Power Automate) · Git/GitHub · Docker</p>
+          <p>n8n (workflows, RPA) · API REST · <strong>FastAPI</strong> · Microsoft 365 (Power Automate) · Git/GitHub · Docker</p>
         </div>
         <div class="skill-cat">
           <h3>Cloud &amp; Déploiement</h3>
-          <p>Google Cloud Run · Cloud SQL · Cloud Storage · IAM · CI/CD (déploiement, monitoring) · certifications Google Cloud (CDL, ACE, Pro. Cloud Architect)</p>
+          <p>Google Cloud Run · Cloud SQL · Cloud Storage · <strong>Secret Manager</strong> · IAM · CI/CD (déploiement, monitoring) · certifications Google Cloud (CDL, ACE, Pro. Cloud Architect)</p>
         </div>
         <div class="skill-cat">
           <h3>Business Intelligence</h3>
           <p>Power BI (DAX, PowerQuery, reporting automatisé) · Excel avancé (TCD, PowerQuery) · Matplotlib</p>
         </div>
         <div class="skill-cat">
-          <h3>Développement Web</h3>
-          <p>JavaScript (Vue.js) · HTML · CSS (Bootstrap)</p>
-        </div>
-        <div class="skill-cat">
-          <h3>Programmation</h3>
-          <p>C · Java · PHP</p>
+          <h3>Programmation &amp; Développement Web</h3>
+          <p>C · Java · PHP · JavaScript (Vue.js) · HTML · CSS (Bootstrap)</p>
         </div>
       </div>
     </div>
@@ -228,7 +254,7 @@
     <div class="footer-nav">
       <a href="https://www.linkedin.com/in/dylan-nassara" target="_blank" rel="noopener">LinkedIn</a>
       <a href="https://github.com/tristannass" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://drive.google.com/file/d/1DdJ5ExvvoNG-CtEEVrA7pAiH7wMY3wFS/view?usp=sharing" target="_blank" rel="noopener">Portfolio PDF</a>
+      <a href="https://drive.google.com/file/d/1JL6DPeAxlZiAg6WiMdtBVBqbb2cyu8AC/view?usp=drive_link" target="_blank" rel="noopener">Portfolio PDF</a>
     </div>
   </div>
   <p class="footer-copy">© 2026 Tristan Dylan Nassara.</p>
